@@ -92,6 +92,8 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: iso_datetime
+      timezone: Asia/Shanghai
+      locale: zh
       fallback_to_build_date: true
   - git-committers:
       repository: PyStatPower/PyStatPower-Docs
