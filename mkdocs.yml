@@ -2,7 +2,10 @@ site_name: PyStatPower 帮助文档
 site_url: https://pystatpower.github.io/PyStatPower-Docs
 repo_url: https://github.com/PyStatPower/PyStatPower
 repo_name: PyStatPower
-edit_uri: edit/main/docs/
+edit_uri: https://github.com/PyStatPower/PyStatPower-Docs/blob/main/docs
+site_description: PyStatPower 是一个用于统计领域功效分析的 Python 库。
+site_author: PyStatPower
+copyright: Copyright © 2024 PyStatPower
 theme:
   name: material
   language: zh
