@@ -74,7 +74,10 @@ extra_javascript:
 
 plugins:
   - search:
-      separator: '[\s\u200b\-]'
+      lang:
+        - en
+        - zh
+      jieba_dict: dict.txt
   - tags:
       tags_file: tags.md
   - mike:
