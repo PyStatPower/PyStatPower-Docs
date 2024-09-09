@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # one_sample_proportion
 
 <!-- prettier-ignore-start -->

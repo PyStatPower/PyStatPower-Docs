@@ -25,6 +25,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+  custom_dir: overrides
 
 nav:
   - 主页: index.md

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Welcome to PyStatPower Documentation
 
 [PyStatPower](https://github.com/PyStatPower/PyStatPower) 是一个专注于统计领域功效分析的 Python 包。

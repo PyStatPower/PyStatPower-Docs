@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Exception
 
 ## 继承关系图
