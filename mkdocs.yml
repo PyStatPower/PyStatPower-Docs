@@ -31,8 +31,12 @@ nav:
   - 安装: install.md
   - 使用: usage.md
   - API:
-     - api/index.md
-     - api/one_sample_proportion.md
+    - api/index.md
+    - 核心模块:
+      - api/interval.md
+      - api/exception.md
+    - 实用模块:
+      - api/procedures/one_sample_proportion.md
 
 markdown_extensions:
   - abbr
@@ -57,7 +61,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.keys
   - pymdownx.snippets:
       auto_append:
