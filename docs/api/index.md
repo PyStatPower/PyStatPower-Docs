@@ -46,3 +46,7 @@ comments: true
 | 模块                                                           | 别名 | 描述               |
 | -------------------------------------------------------------- | ---- | ------------------ |
 | [one_sample_proportion](./procedures/one_sample_proportion.md) | ospp | 单样本率差异性检验 |
+
+## 参考资料
+
+API 中的大部分计算公式均来源于 PASS 官方文档，详见：[PASS Documentation](https://www.ncss.com/software/pass/pass-documentation/)
