@@ -29,7 +29,7 @@ H_1: p_1 \neq p_2
 
 对于这个场景，PyStatPower 提供了 `one_sample_proportion` 模块用于功效分析。
 
-该模块包含一个 `solve` 函数，它可以接受用户传入的 `alpha`，`power`，`p0`，`p1`，`n` 等参数，并返回计算结果。
+该模块包含一个 `solve` 函数，它可以接受用户传入的 `n`，`alpha`，`power`，`p0`，`p1`，等参数，并返回计算结果。
 
 ### 计算样本量
 
