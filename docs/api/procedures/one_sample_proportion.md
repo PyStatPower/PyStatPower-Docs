@@ -203,7 +203,7 @@ result = one_sample_proportion.solve(
     n=None,
     alpha=0.05,
     power=0.80,
-    nullproportion=0.80, # (1)!
+    nullproportion=0.80,
     proportion=0.95,
 )
 
