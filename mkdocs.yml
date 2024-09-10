@@ -13,6 +13,7 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.action.edit
+    - content.action.view
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -76,8 +77,10 @@ extra:
   social:
     - icon: simple/github
       link: https://github.com/PyStatPower/PyStatPower
+      name: Github 仓库
     - icon: simple/gmail
       link: mailto:openpower2024@gmail.com
+      name: 邮件联系
   version:
     provider: mike
 
