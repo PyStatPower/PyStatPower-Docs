@@ -21,11 +21,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.indexes
     - navigation.top
     - search.suggest
     - search.highlight
     - search.share
+    - toc.integrate
   custom_dir: overrides
 
 nav:
@@ -49,7 +49,8 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-      toc_depth: 3
+      permalink_title: 链接到本节以供参考
+      toc_depth: 5
   - tables
   - pymdownx.arithmatex:
       generic: true
